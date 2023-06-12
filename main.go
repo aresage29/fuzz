@@ -71,6 +71,5 @@ func request(id int, url string) {
 	if len(body) > 146 {
 		fmt.Printf("[%d] req to url %s (%d)\n", id, url, len(body))
 	}
-	fmt.Printf("[%d] req to url %s (%d)\n", id, url, len(body))
 
 }
